@@ -7,10 +7,6 @@ html {
 }
 
 body {
-	background: url("https://images.unsplash.com/photo-1558051815-0f18e64e6280?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80") no-repeat center center fixed;
-	background-size: cover;
-	/*background: rgb(71, 181, 245)!important;*/
-	/*background: black!important;*/
 	margin: 0px;
 	margin-top: 20px!important;
 	font-family: 'Orbitron', sans-serif!important;
@@ -55,12 +51,11 @@ nav li:hover {
 #jumboImg {
 	background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80');
 	height: 550px;
-	width: auto;
+	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin: 0 auto;
 	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -76,8 +71,20 @@ nav li:hover {
 }
 
 .content {
-	text-align: left;
+	text-align: justify;
+	padding: 0px 20px 30px 20px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.content2 {
+	text-align: justify;
 	padding: 0px 20px 0px 20px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.content3 {
+	text-align: justify;
+	padding: 0px 20px 10px 20px;
 	font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -129,20 +136,13 @@ footer {
 	bottom: 0;
 	width: 100%;
 	color: white;
-	/*background: black;*/
 	background: rgba(72, 181, 71, .7);
 }
 
 #layer {
-	/*background: rgba(0, 255, 0, .3);*/
-	/*background: rgba(120, 200, 250, .8);*/
-	/*background: rgba(204, 85, 0, .8);*/
-	/*background: rgba(72, 181, 71);*/
-	/*background: white;*/
-	margin-top: 20px;
+	margin-top: 10px;
 	padding-bottom: 40px;
 	padding-top: 35px;
-	/*opacity: .9;*/
 }
 
 #layer2 {
@@ -157,31 +157,30 @@ footer {
 }
 
 #layer3 {
-	background: white;
 	height: auto;
 	width: auto;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	margin: 0 30px;
-	border-radius: 5px;
-	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
 .layer4 {
 	background: white;
 	height: auto;
 	width: auto;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	margin: 10px 30px;
-	border-radius: 5px;
-	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
 #layer5 {
 	margin-top: 15px;
 	padding-bottom: 40px;
 	padding-top: 35px;
+}
+
+#contactBackground {
+	background-color: #DCDCDC;
 }
 
 #testimonials {
@@ -196,10 +195,25 @@ footer {
 	border-radius: 5px;
 	height: auto;
 	width: 290px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding: 20px 20px 0px 20px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 20px 20px 20px 20px;
 	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.test-border {
+	border: 1.5px solid rgb(72, 181, 71);
+	border-radius: 5px;
+	padding-top: 10px;
+}
+
+#hr1 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+hr {
+	background-color: rgb(71, 181, 245)!important;
 }
 
 .review {
@@ -209,30 +223,27 @@ footer {
 }
 
 #servicesFeat {
-	background: white;
 	height: auto;
 	width: auto;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	margin: 0px 30px 40px 30px;
-	border-radius: 5px;
-	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+	margin: 0px 10px 10px 10px;
 }
 
 h2 {
 	font-size: 30px!important;
 }
 
-h4 {
+h3 {
 	padding-top: 10px;
 	font-size: 20px!important;
 }
 
-h5 {
+h4 {
 	font-size: 30px!important;
 }
 
-h6 {
+h5 {
 	font-family: 'Nanum Gothic', sans-serif;
 	padding-top: 15px;
 	font-size: 20px!important;
@@ -250,7 +261,7 @@ h6 {
 	font-size: 35px;
 }
 
-.fa-laptop-house {
+.fa-home {
 	color: rgb(72, 181, 71);
 	font-size: 35px;
 }
@@ -295,20 +306,47 @@ h6 {
 
 #button {
 	text-align: center;
+	margin-top: 0;
 	margin-bottom: 20px;
 }
 
-.helpdeskBtn {
+.helpdeskBtn1 {
 	border: none;
 	border-radius: 5px!important;
 	padding: 10px;
 	margin-top: 10px!important;
-	margin-bottom: 15px;
 	background-color: rgb(71, 181, 245)!important;
 	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
-.helpdeskBtn:hover {
+.helpdeskBtn2 {
+	border: none;
+	border-radius: 5px!important;
+	padding: 10px;
+	margin-top: 25px!important;
+	margin-bottom: 25px;
+	background-color: rgb(72, 181, 71);
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.helpdeskBtn3 {
+	border: none;
+	border-radius: 5px!important;
+	padding: 10px;
+	margin-bottom: 45px;
+	background-color: rgb(71, 181, 245)!important;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.helpdeskBtn1:hover {
+	transform: scale(1.1);
+}
+
+.helpdeskBtn2:hover {
+	transform: scale(1.1);
+}
+
+.helpdeskBtn3:hover {
 	transform: scale(1.1);
 }
 
