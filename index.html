@@ -44,7 +44,7 @@
 		
 		<div id="layer3">
 			<hr>
-			<h2 class="text-center">A little about us:</h2>
+			<h2 class="text-center aboutLabel">A little about us:</h2>
 			<p class="content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed pulvinar justo, vel porta nibh. Integer at lectus nec nulla efficitur mollis et at erat. 
 				 Duis nec nisi sit amet metus venenatis commodo vel a urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ut tincidunt est. Ut eu fringilla sem, et molestie lacus. 
 				 Pellentesque feugiat dui quis risus porta, vulputate gravida lorem auctor. Etiam quis suscipit erat. Vivamus faucibus urna nunc, nec hendrerit libero cursus eu.</p>
@@ -56,33 +56,36 @@
 			<hr>
 		</div>
 		
-		<div class="container-fluid text-center" id="testimonials">
-			<div class="test">
-				<div class="test-border">
-					<img src="https://img.icons8.com/color/48/000000/user-female-circle--v1.png" alt="Female user icon" />
-					<h3>Poppy</h3>
-					<p class="review">"Anytime I need help with my home computer BigCloudCorp is always ready and willing to assist. I highly recommend!"</p>
+		<div class="container-fluid text-center">
+			<h2 class="text-center testLabel">Testimonials:</h2>
+			<div id="testimonials">
+				<div class="test">
+					<div class="test-border">
+						<img src="https://img.icons8.com/color/48/000000/user-female-circle--v1.png" alt="Female user icon" />
+						<h3>Poppy</h3>
+						<p class="review">"Anytime I need help with my home computer BigCloudCorp is always ready and willing to assist. I highly recommend!"</p>
+					</div>
 				</div>
-			</div>
-			<div class="test">
-				<div class="test-border">
-					<img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-3--v1.png" alt="Male user icon" />
-					<h3>Kurt</h3>
-					<p class="review">"All around excellent service from BigCloudCorp - we could not be happier! Give them a call today! You won't be sorry."</p>
+				<div class="test">
+					<div class="test-border">
+						<img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-3--v1.png" alt="Male user icon" />
+						<h3>Kurt</h3>
+						<p class="review">"All around excellent service from BigCloudCorp - we could not be happier! Give them a call today! You won't be sorry."</p>
+					</div>
 				</div>
-			</div>
-			<div class="test">
-				<div class="test-border">
-					<img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-6--v1.png" alt="Female User Icon" />
-					<h3>Marilyn</h3>
-					<p class="review">"BigCloudCorp never fails to meet all of my expectations. They're experts and the service is incomparable!"</p>
+				<div class="test">
+					<div class="test-border">
+						<img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-6--v1.png" alt="Female User Icon" />
+						<h3>Marilyn</h3>
+						<p class="review">"BigCloudCorp never fails to meet all of my expectations. They're experts and the service is incomparable!"</p>
+					</div>
 				</div>
-			</div>
-			<div class="test">
-				<div class="test-border">
-					<img src="https://img.icons8.com/color/50/000000/circled-user-male-skin-type-7--v1.png" alt="Male user icon" />
-					<h3>Serj</h3>
-					<p class="review">"You will not be disappointed by BigCloudCorp. They offer a wide range of services to meet all of your tech and web needs!"</p>
+				<div class="test">
+					<div class="test-border">
+						<img src="https://img.icons8.com/color/50/000000/circled-user-male-skin-type-7--v1.png" alt="Male user icon" />
+						<h3>Serj</h3>
+						<p class="review">"You will not be disappointed by BigCloudCorp. They offer a wide range of services to meet all of your tech and web needs!"</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -93,7 +96,7 @@
 			<div id="servicesOffered">
 				<div class="offer">
 					<a href="services.html">
-						<i class="fab fa-aws"></i>
+						<img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS icon" />
 						<h5>Amazon Web Services</h5>
 						<ul>
 							<li>Cloud Integration</li>
@@ -103,7 +106,7 @@
 				</div>
 				<div class="offer">
 					<a href="services.html">
-						<i class="far fa-building"></i>
+						<img src="https://img.icons8.com/offices/48/000000/skyscrapers.png" alt="skyscrapers icon" />
 						<h5>Business Services</h5>
 						<ul>
 							<li>Server Work</li>
@@ -113,7 +116,7 @@
 				</div>
 				<div class="offer">
 					<a href="services.html">
-						<i class="fas fa-home"></i>
+						<img src="https://img.icons8.com/offices/48/000000/cottage.png" alt="house icon" />
 						<h5>Residential Services</h5>
 						<ul>
 							<li>Computer Setup</li>
@@ -123,7 +126,7 @@
 				</div>
 				<div class="offer">
 					<a href="services.html">
-						<i class="far fa-file-code"></i>
+						<img src="https://img.icons8.com/offices/48/000000/web-design.png" alt="web development icon" />
 						<h5>Web Development</h5>
 						<ul>
 							<li>Site Build</li>
@@ -136,8 +139,15 @@
 	</div>
 
 
-	<footer>
-			<small>BigCloudCorp | Designed by LT | 2020</small>
+	<footer class="footer">
+		<div id="footerContent">
+			<div>
+				<small>BigCloudCorp | <a href="https://dev.loritanksley.com">Designed by LT</a> | 2020 </small>
+			</div>
+			<div>
+				<small>icons by <a href="https://icons8.com">icons8.com</a></small>
+			</div>
+		</div>
 	</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>

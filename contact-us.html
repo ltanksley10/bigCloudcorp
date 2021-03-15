@@ -41,10 +41,11 @@
 			<p>You have entered the BigCloudCorp Help Desk Portal.</p>
 			
 			<p>Please fill out the form below and you will be contacted for assistance.</p>
-			<form id="contact-form" action="https://formsubmit.co/your@email.com" method="post">
+			<form id="contact-form" action="https://formsubmit.co/#" method="post">
 			  <div class="form-row container">
 			  	<input type="text" name="_honey" style="display:none">
 			  	<input type="hidden" name="_autoresponse" value="Thank you for your message. Someone from BigCloudCorp will be in touch with you as soon as possible!">
+			    <input type="hidden" name="_next" value="https://dev.bigcloudcorp.com/thankyou.html">
 			    <div class="col-6">
 			      <input type="text" name="name" id="name-input" class="form-control" placeholder="Name" aria-label="Name input" required>
 			    </div>
@@ -60,7 +61,7 @@
 			  	<div class="row">
 			  		<div class="col-12">
 			  			<label>Browse the list below and choose the option that best fits your situation:</label>
-						  <select class="form-control" aria-label="Selection dropdown">
+						  <select class="form-control" aria-label="Selection dropdown" name="selection">
 							  <option>Residential</option>
 							  <option>Business</option>
 							  <option>Web Development</option>
@@ -69,7 +70,7 @@
 			  		</div>
 			  		<div id="textarea" class="col-12">
 			  			<label>Add additional details below:</label>
-						<textarea class="form-control" id="description-input" aria-label="Text input for extra comments"></textarea>
+						<textarea class="form-control" id="description-input" aria-label="Text input for extra comments" name="comments"></textarea>
 						<button class="helpdeskBtn2" type="submit">Submit</button>
 						</div>
 			    </div>
@@ -79,7 +80,14 @@
 	</div>
 
 	<footer>
-		<small>BigCloudCorp | Designed by LT | 2020</small>
+		<div id="footerContent" class="contactFooter">
+			<div>
+				<small>BigCloudCorp | <a href="https://dev.loritanksley.com">Designed by LT</a> | 2020 </small>
+			</div>
+			<div>
+				<small>icons by <a href="https://icons8.com">icons8.com</a></small>
+			</div>
+		</div>
 	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
