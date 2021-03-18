@@ -5,9 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="robots" content="nofollow" />
 	<meta name="description" content="BigCloudCorp homepage, a small tech business that services commercial businesses, residential, AWS integration and web development." />
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-	<link rel="icon" href="favicon2.ico" />
+	<link rel="icon" href="images/favicon2.ico" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbitron&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top w-100">
-      <a href="index.html" class="navbar-brand">BigCloudCorp <i class="fas fa-cloud"></i></a>
+      <a href="splash.html" class="navbar-brand">BigCloudCorp <i class="fas fa-cloud"></i></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,42 +28,110 @@
             <a href="services.html" class="nav-link">Services</a>
           </li>
           <li class="nav-item">
+          	<a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
             <a href="contact-us.html" class="nav-link">Contact Us</a>
           </li>
         </ul>
       </div>
    	</nav>
 	<div class="container-fluid" id="layer">
-		<div id="jumboImg" class="jumbotron jumbotron-fluid">
-		  <div class="container text-center">
-		    <h1 class="display-4" id="jumboText">Welcome to BigCloudCorp</h1>
-		    <p class="lead" id="jumboText2">A community of experts skilled to meet your technology needs at home and in the office.</p>
-		    <button class="helpdeskBtn1" onclick="window.location.href='contact-us.html'">Get Started</button>
+		<div class="text-center bannerImage">
+		  <div class="bannerVid">
+		  	<video playsinline autoplay muted loop id="bvid">
+			  <source src="videos/bannerVid.mp4" type="video/mp4">
+			</video>
+			<div class="bannerText">
+		  		<h1 class="display-4" id="jumboText">Welcome to BigCloudCorp</h1>
+			    <p class="lead" id="jumboText2">A community of experts skilled to meet your technology needs at home and in the office.</p>
+			    <button class="helpdeskBtn1" onclick="window.location.href='contact-us.html'">Get Started</button>
+		  	</div>
 		  </div>
-		</div>	
-		
-		<div id="layer3">
-			<hr>
-			<h2 class="text-center aboutLabel">A little about us:</h2>
-			<p class="content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed pulvinar justo, vel porta nibh. Integer at lectus nec nulla efficitur mollis et at erat. 
-				 Duis nec nisi sit amet metus venenatis commodo vel a urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ut tincidunt est. Ut eu fringilla sem, et molestie lacus. 
-				 Pellentesque feugiat dui quis risus porta, vulputate gravida lorem auctor. Etiam quis suscipit erat. Vivamus faucibus urna nunc, nec hendrerit libero cursus eu.</p>
-			<p class="content3">Aliquam neque tortor, pulvinar sed imperdiet et, efficitur pellentesque dolor. Nulla in dignissim sem. Morbi felis ex, euismod non lorem ut, tincidunt consectetur tellus.
-			   Duis nec justo libero. Donec aliquet ultrices mi, ac lobortis dui vulputate ut. Mauris sodales feugiat rutrum. Nulla interdum justo nec ligula efficitur, eu elementum lorem ultrices. 
-			   Curabitur consequat tortor eu mi convallis egestas. Praesent luctus nec nisl non aliquam. Donec tincidunt velit a molestie tincidunt. Donec a pellentesque augue, nec bibendum velit. 
-			   Cras cursus, ex non porta mattis, mauris neque lacinia ex, a pulvinar ex quam non libero. Suspendisse semper consequat tristique. Duis ultricies malesuada mauris, non maximus erat finibus at. 
-			   Proin pellentesque convallis aliquam.</p>
-			<hr>
 		</div>
 		
+		<div id="layer3">
+			<hr class="hr1">
+			<h2 class="aboutLabel1">What is “cloud computing”?</h2>
+			<img class="neuron" src="https://images.unsplash.com/photo-1564325724739-bae0bd08762c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="A small neuron">
+			<p class="content4">They’re just buzzwords, and tired ones at that. So tired that “demystifying the cloud” have become buzzwords.
+			Let’s simplify that immediately. “The Cloud” is your IT resources like servers, storage devices, and networking hardware distributed across the internet. 
+			Even more simply put: the cloud is nothing more than a bunch of very powerful computers chained together to create virtual environments and infinite 
+			possibilities. Highly trained architects and engineers spend countless hours creating enterprise grade IT infrastructure that can be used by anyone to 
+			create anything. That very infrastructure could be your cloud solution. You can diminish the need for purchasing, configuring and maintaining all the fancy 
+			IT equipment that’s needed to bring a shiny, feature-rich application or website to market. Giving your company a cloud presence will make things possible 
+			that weren’t with on-premise solutions.</p>
+			<img class="meeting" src="https://images.unsplash.com/photo-1552581234-26160f608093?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="A group of employees in a meeting">
+			<h2 class="aboutLabel2">So...what is BigCloudCorp?</h2>
+			<p class="content2">BigCloudCorp is just that, a corp of dedicated professionals helping others bring big ideas to the cloud. Our focus is set on creating 
+			solutions that enable businesses in the age of cloud. We utilize the cloud so you’re ready to deploy your product and scale to the market’s demand with an 
+			automated approach. BigCloudCorp focuses on creating solutions efficiently. Having a blank canvas like the cloud helps us empower individuals or businesses 
+			to realize their digital dreams. Wasting money or time on IT is not why companies were created, so let BigCloudCorp help your business not make the mistakes
+			most companies do. Not a big business? Not a worry for us, we can provide solutions for startups and even individuals dev/side projects.</p>
+			<hr class="hr1">
+		</div>
+		
+		<div class="container-fluid text-center" id="servicesFeat">
+			<h4 class="text-center">We know a little something about:</h4>
+			<div id="servicesOffered">
+				<div class="offer" id="offer1">
+					<a href="services.html">
+						<img src="https://img.icons8.com/offices/48/000000/skyscrapers.png" alt="skyscrapers icon" />
+						<h5>On-Premise Migration</h5>
+						<ul>
+							<li>&bull;From Legacy Hardware to Microservices</li>
+							<li>&bull;Replace Old Archive Directories with the Latest, Coupled with SSO(single sign-on)</li>
+							<li>&bull;Step-By-Step Migration or Complete Rebuild in the Cloud</li>
+						</ul>
+					</a>
+				</div>
+				<div class="offer offer2">
+					<a href="services.html">
+						<img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS icon" />
+						<h5>Amazon Web Services</h5>
+						<ul>
+							<li>&bull;Static/Dynamic Web Hosting</li>
+							<li>&bull;Serverless Architecture</li>
+							<li>&bull;Account Management</li>
+							<li>&bull;Disaster Recovery &amp; Storage Solutions</li>
+						</ul>
+					</a>
+				</div>
+				<div class="offer offer3">
+					<a href="services.html">
+						<img src="https://img.icons8.com/offices/48/000000/web-design.png" alt="web development icon" />
+						<h5>Web Development</h5>
+						<ul>
+							<li>&bull;Responsive Websites</li>
+							<li>&bull;Dynamic React Web Apps</li>
+							<li>&bull;Site Maintenance &amp; Monitoring</li>
+							<li>&bull;UI &amp; Design Coaching</li>
+						</ul>
+					</a>
+				</div>
+				<div class="offer offer4">
+					<a href="services.html">
+						<img src="https://img.icons8.com/offices/48/000000/cottage.png" alt="house icon" />
+						<h5>Residential Services</h5>
+						<ul>
+							<li>&bull;Have you tried turning it off and on again?</li>
+							<li>&bull;Try Unplugging it for 30 seconds..</li>
+							<li>&bull;Still not working? Check out our Blog BCC Field, it's a field of information we've picked up over the years</li>
+						</ul>
+					</a>
+				</div>
+			</div>
+		</div>
+		<hr class="hr2">
+		
 		<div class="container-fluid text-center">
-			<h2 class="text-center testLabel">Testimonials:</h2>
+			<h2 class="text-center testLabel">Things you could be saying:</h2>
 			<div id="testimonials">
 				<div class="test">
 					<div class="test-border">
 						<img src="https://img.icons8.com/color/48/000000/user-female-circle--v1.png" alt="Female user icon" />
 						<h3>Poppy</h3>
-						<p class="review">"Anytime I need help with my home computer BigCloudCorp is always ready and willing to assist. I highly recommend!"</p>
+						<p class="review">"Anytime I need help with the cloud BigCloudCorp is always ready and willing to assist. I highly recommend!"</p>
 					</div>
 				</div>
 				<div class="test">
@@ -84,55 +152,8 @@
 					<div class="test-border">
 						<img src="https://img.icons8.com/color/50/000000/circled-user-male-skin-type-7--v1.png" alt="Male user icon" />
 						<h3>Serj</h3>
-						<p class="review">"You will not be disappointed by BigCloudCorp. They offer a wide range of services to meet all of your tech and web needs!"</p>
+						<p class="review">"You will not be disappointed by BigCloudCorp. They offer a wide range of services to meet all of your tech needs!"</p>
 					</div>
-				</div>
-			</div>
-		</div>
-		<hr id="hr1">
-		
-		<div class="container-fluid text-center" id="servicesFeat">
-			<h4 class="text-center">What we offer:</h4>
-			<div id="servicesOffered">
-				<div class="offer">
-					<a href="services.html">
-						<img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS icon" />
-						<h5>Amazon Web Services</h5>
-						<ul>
-							<li>Cloud Integration</li>
-							<li>Website Hosting</li>
-						</ul>
-					</a>
-				</div>
-				<div class="offer">
-					<a href="services.html">
-						<img src="https://img.icons8.com/offices/48/000000/skyscrapers.png" alt="skyscrapers icon" />
-						<h5>Business Services</h5>
-						<ul>
-							<li>Server Work</li>
-							<li>AWS Consults</li>
-						</ul>
-					</a>
-				</div>
-				<div class="offer">
-					<a href="services.html">
-						<img src="https://img.icons8.com/offices/48/000000/cottage.png" alt="house icon" />
-						<h5>Residential Services</h5>
-						<ul>
-							<li>Computer Setup</li>
-							<li>Security Consults</li>
-						</ul>
-					</a>
-				</div>
-				<div class="offer">
-					<a href="services.html">
-						<img src="https://img.icons8.com/offices/48/000000/web-design.png" alt="web development icon" />
-						<h5>Web Development</h5>
-						<ul>
-							<li>Site Build</li>
-							<li>Maintenance</li>
-						</ul>
-					</a>
 				</div>
 			</div>
 		</div>
