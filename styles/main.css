@@ -190,8 +190,10 @@ footer a:hover { text-decoration: none; color: purple; }
 	#layer2 { width: 100%; margin-top: 5px; }
 	#layer3 { width: auto; margin-right: 12px; margin-left: 12px; margin-bottom: 10px; }
 	#flexDivAbout { flex-direction: column!important; }
-	.contactFooter { font-size: 16px; flex-direction: column; align-items: center; }
+	.contactFooter { position: absolute; bottom: 0; left: 0; font-size: 16px; flex-direction: column; align-items: center; }
 	.layer4 { flex-direction: column; }
+	#layer5 { position: relative; top: 80%; }
+	.contactFooter { position: relative!important; bottom: 0; font-size: 16px; flex-direction: column; align-items: center; margin-top: 100px; }
 	.content2 { padding: 0px 10px 20px 10px; font-size: 16px; }
 	.content4 {padding: 0px 10px 0px 10px; font-size: 16px; }
 	.serviceIcon { justify-content: center; margin-right: 0px; }
@@ -204,6 +206,26 @@ footer a:hover { text-decoration: none; color: purple; }
 	.test { height: auto; width: 300px!important; margin-top: 0px; margin-left: auto; margin-right: auto; margin-bottom: 30px; }
 	#servicesOffered { display: grid; grid-template-columns: 100%; grid-template-rows: 29% 21% 21% 29%; grid-row-gap: 10px; padding: 20px 5px 40px 5px; }
 	#servicesFeat { padding-left: 0px!important; padding-right: 0px!important; }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+	#layer5 { position: relative; top: 70%; }
+	.contactFooter { position: relative!important; bottom: 0; margin-top: 150px; }
+}
+
+@media screen and (width: 375px) {
+	#layer5 { position: relative!important; top: 60%; }
+	.contactFooter { position: relative!important; bottom: 0; margin-top: 200px; }
+}
+
+@media screen and (width: 375px) {
+	#layer5 { position: relative!important; top: 50%; }
+	.contactFooter { position: relative!important; bottom: 0; margin-top: 150px; }
+}
+
+@media screen and (min-width: 376px) and (max-width: 450px) {
+	#layer5 { position: relative; top: 60%; }
+	.contactFooter { position: relative!important; bottom: 0; margin-top: 150px; }
 }
 
 @media screen and (max-width: 512px) {
@@ -248,7 +270,6 @@ footer a:hover { text-decoration: none; color: purple; }
 	#layer2 { width: 100%; margin-top: 5px; }
 	#layer3 { width: auto; margin-right: 12px; margin-left: 12px; margin-bottom: 0px; padding-bottom: 10px; }
 	.layer4 { flex-direction: column; }
-	.contactFooter { font-size: 16px; flex-direction: column; align-items: center; }
 	.content2 { padding: 0px 25px 20px 25px; font-size: 16px; }
 	.content4 {padding: 0px 25px 0px 25px; font-size: 16px; }
 	.serviceIcon { justify-content: center; margin-right: 0px;}
