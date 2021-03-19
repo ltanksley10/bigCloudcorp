@@ -11,7 +11,7 @@ h2 { margin-top: 0; font-size: 30px!important; }
 .aboutLabel1 { padding-top: 25px; padding-bottom: 10px; padding-left: 5px;}
 .aboutLabel2 { padding-bottom: 10px; padding-top: 5px; padding-left: 0px; }
 .testLabel { padding-bottom: 0px; padding-left: 0px; padding-top: 0px; margin-top: 0px; }
-h3 { padding-top: 10px; font-size: 20px!important; }
+h3 { padding-top: 0px; font-size: 20px!important; }
 h4 { font-size: 30px!important; }
 h5 { font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; padding-top: 15px; font-size: 20px!important; text-decoration: underline; text-underline-position: under; }
 button { font-size: 15px; font-weight: lighter; margin-top: 5px!important; border-radius: 15%!important; background: black; color: white; } 
@@ -44,7 +44,6 @@ nav li:hover { transform: scale(1.1); }
 /* HOMEPAGE MAIN CONTENT */
 #layer3 { height: auto; width: auto; padding-bottom: 5px; padding-top: 20px; margin: 0 5px; }
 #flexDivAbout { display: flex; flex-direction: row-reverse; align-items: center; }
-.content { text-align: justify; padding: 0px 20px 30px 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 .neuron { height: 350px; width: auto; margin-left: 20px; padding-right: 5px; padding-bottom: 20px; padding-top: 20px;  }
 .content4 { text-align: justify; padding: 0px 5px 20px 5px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 #testimonials { display: flex; flex-direction: row; justify-content: space-evenly; flex-wrap: wrap; padding-bottom: 20px; } 
@@ -98,6 +97,7 @@ nav li:hover { transform: scale(1.1); }
 #svid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 1150px; }
 .layer4 { background: white; height: auto; width: auto; padding-bottom: 10px;padding-top: 10px; margin: 10px 30px; display: flex; }
 #layer6 { margin-top: 0px; padding-bottom: 40px; padding-top: 20px; }
+.content { text-align: justify; padding: 0px 20px 30px 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 .services { font-size: 30px!important; text-align: left; }
 .serviceIcon { display: flex; align-items: center; margin-right: 20px; }
 .serviceIcon img { height: 250px; width: 350px; border-radius: 5px; margin-bottom: 50px; }
@@ -183,6 +183,8 @@ footer a:hover { text-decoration: none; color: purple; }
 	.navbar-toggler-icon { font-size: 10px; padding: 1px 1px!important; } 
 	.nav-link { font-size: 14px!important; }
 	#bvid { height: 400px!important; }
+	#avid { height: 350px!important; }
+	#svid { height: 350px!important; }
 	#jumboText { font-size: 20px!important; }
 	#jumboText2 { font-size: 15px!important; margin: 5px 20px 10px 30px;}
 	h1 { font-size: 30px!important; } 
@@ -198,14 +200,16 @@ footer a:hover { text-decoration: none; color: purple; }
 	#layer3 { width: auto; margin-right: 12px; margin-left: 12px; margin-bottom: 10px; }
 	#flexDivAbout { flex-direction: column!important; }
 	.contactFooter { position: absolute; bottom: 0; left: 0; font-size: 16px; flex-direction: column; align-items: center; }
-	.layer4 { flex-direction: column; }
+	.layer4 { flex-direction: column;  padding: 10px 0px!important; }
 	#layer5 { position: relative; top: 80%; }
+	.layer6 { padding: 20px 0px 40px 0px!important; }
 	.contactFooter { position: relative!important; bottom: 0; font-size: 16px; flex-direction: column; align-items: center; margin-top: 100px; }
+	.content { font-size: 16px; padding: 0px 10px 30px 10px; }
 	.content2 { padding: 0px 10px 20px 10px; font-size: 16px; }
 	.content4 {padding: 0px 10px 0px 10px; font-size: 16px; }
 	.serviceIcon { justify-content: center; margin-right: 0px; }
 	.serviceIcon img { margin-bottom: 15px; }
-	.services { text-align: center; }
+	.services { text-align: center; font-size: 25px!important;  }
 	.offer ul li { text-align: center;  list-style:none; font-size: 14px;}
 	#jumboImg { height: 350px; width: 98%; margin: 0 auto; }
 	#testimonials { flex-wrap: wrap; padding-bottom: 30px; margin-left: 10px; margin-right: 10px; }
@@ -225,10 +229,10 @@ footer a:hover { text-decoration: none; color: purple; }
 	.contactFooter { position: relative!important; bottom: 0; margin-top: 200px; }
 }
 
-@media screen and (width: 375px) {
-	#layer5 { position: relative!important; top: 50%; }
-	.contactFooter { position: relative!important; bottom: 0; margin-top: 150px; }
-}
+/*@media screen and (width: 375px) {*/
+/*	#layer5 { position: relative!important; top: 50%; }*/
+/*	.contactFooter { position: relative!important; bottom: 0; margin-top: 150px; }*/
+/*}*/
 
 @media screen and (min-width: 376px) and (max-width: 450px) {
 	#layer5 { position: relative; top: 60%; }
@@ -260,6 +264,8 @@ footer a:hover { text-decoration: none; color: purple; }
 	.navbar-toggler-icon { font-size: 10px; padding: 1px 1px!important; } 
 	.nav-link { font-size: 14px!important; }
 	#bvid { height: 400px!important; }
+	#avid { height: 400px!important; }
+	#svid { height: 400px!important; }
 	#jumboText { font-size: 22px!important; }
 	#jumboText2 { font-size: 15px!important; margin: 5px 20px 10px 30px;}
 	h1 { font-size: 30px!important; } 
@@ -276,12 +282,13 @@ footer a:hover { text-decoration: none; color: purple; }
 	.lead { font-size: 16px!important; }
 	#layer2 { width: 100%; margin-top: 5px; }
 	#layer3 { width: auto; margin-right: 12px; margin-left: 12px; margin-bottom: 0px; padding-bottom: 10px; }
-	.layer4 { flex-direction: column; }
+	.layer4 { flex-direction: column; padding: 10px 0px!important; }
+	.content { font-size: 16px; padding: 0px 10px 30px 10px;}
 	.content2 { padding: 0px 25px 20px 25px; font-size: 16px; }
 	.content4 {padding: 0px 25px 0px 25px; font-size: 16px; }
 	.serviceIcon { justify-content: center; margin-right: 0px;}
 	.serviceIcon img { margin-bottom: 15px; }
-	.services { text-align: center; }
+	.services { text-align: center; font-size: 25px!important; }
 	#jumboImg { height: 350px; width: 95%; }
 	#testimonials { flex-wrap: wrap; padding-bottom: 30px; margin-left: 20px; margin-right: 20px; }
 	.testLabel { margin-top: 0px; padding-top: 10px; font-size: 20px!important; }
