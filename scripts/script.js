@@ -13,6 +13,10 @@ function initSwiperCarousel() {
                 clickable: true,
                 dynamicBullets: true,
             },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: true,
+            },
             navigation: {
                 nextEl: '.listing-carousel-button-next',
                 prevEl: '.listing-carousel-button-prev',
