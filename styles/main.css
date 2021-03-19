@@ -34,7 +34,7 @@ nav li:hover { transform: scale(1.1); }
 #mainNavbar .nav-link { color: white; font-size: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); }
 .navbar.scrolled { background: black; opacity: .5; }
 
-/* JUMBOTRON CONTENT */
+/* BANNER CONTENT */
 .bannerVid { position: relative; width: 100%; }
 #bvid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 1150px; }
 .bannerText { position: absolute; top: 0; left: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%; }
@@ -46,8 +46,6 @@ nav li:hover { transform: scale(1.1); }
 #flexDivAbout { display: flex; flex-direction: row-reverse; align-items: center; }
 .content { text-align: justify; padding: 0px 20px 30px 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 .neuron { height: 350px; width: auto; margin-left: 20px; padding-right: 5px; padding-bottom: 20px; padding-top: 20px;  }
-.meeting { float: left; height: 250px; width: auto; padding-left: 75px; padding-right: 20px; margin-top: 15px;}
-.content2 { text-align: justify; padding: 0px 75px 20px 75px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 .content4 { text-align: justify; padding: 0px 5px 20px 5px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 #testimonials { display: flex; flex-direction: row; justify-content: space-evenly; flex-wrap: wrap; padding-bottom: 20px; } 
 .test { background: rgb(255,255,255); border-radius: 5px; height: auto; width: 290px; margin-top: 0; margin-bottom: 20px; padding: 20px 20px 20px 20px; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4); }
@@ -96,11 +94,20 @@ nav li:hover { transform: scale(1.1); }
 	width: 10px; height: 10px; transition: all 300ms ease-in-out; }
 
 /* SERVICES PAGE CONTENT */
+.servicesVideo { position: relative; width: 100%; }
+#svid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 1150px; }
 .layer4 { background: white; height: auto; width: auto; padding-bottom: 10px;padding-top: 10px; margin: 10px 30px; display: flex; }
-#layer6 { margin-top: 0px; padding-bottom: 40px; padding-top: 45px; }
+#layer6 { margin-top: 0px; padding-bottom: 40px; padding-top: 20px; }
 .services { font-size: 30px!important; text-align: left; }
 .serviceIcon { display: flex; align-items: center; margin-right: 20px; }
 .serviceIcon img { height: 250px; width: 350px; border-radius: 5px; margin-bottom: 50px; }
+
+/*ABOUT PAGE CONTENT */
+.aboutVideo { position: relative; width: 100%; }
+#avid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 1150px; }
+.aboutLayer { padding-bottom: 70px!important; }
+.meeting { float: left; height: 250px; width: auto; padding-left: 75px; padding-right: 20px; margin-top: 20px;}
+.content2 { text-align: justify; padding: 0px 75px 20px 75px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 
 /* CONTACT PAGE CONTENT */
 section { text-align: center; padding-top: 100px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; } 
