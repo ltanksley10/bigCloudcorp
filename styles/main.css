@@ -9,8 +9,8 @@ body { margin: 0px; margin-top: 20px!important; font-family: 'Orbitron', sans-se
 hr { background-color: rgb(71, 181, 245)!important; } 
 h2 { margin-top: 0; font-size: 30px!important; }
 .aboutLabel1 { padding-top: 10px; padding-bottom: 10px; padding-left: 80px;}
-.aboutLabel2 { padding-bottom: 10px; padding-top: 20px; padding-left: 20px; }
-.testLabel { padding-bottom: 25px; }
+.aboutLabel2 { padding-bottom: 10px; padding-top: 20px; padding-left: 0px; }
+.testLabel { padding-bottom: 25px; padding-left: 0px; }
 h3 { padding-top: 10px; font-size: 20px!important; }
 h4 { font-size: 30px!important; }
 h5 { font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; padding-top: 15px; font-size: 20px!important; text-decoration: underline; text-underline-position: under; }
@@ -48,9 +48,9 @@ nav li:hover { transform: scale(1.1); }
 #layer3 { height: auto; width: auto; padding-bottom: 5px; padding-top: 20px; margin: 0 30px; }
 .content { text-align: justify; padding: 0px 20px 30px 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 .neuron { float: right; height: 250px; width: auto; padding-left: 20px; padding-right: 75px; }
-.meeting { float: left; height: 250px; width: auto; padding-left: 75px; padding-right: 20px; }
+.meeting { float: left; height: 250px; width: auto; padding-left: 75px; padding-right: 20px; margin-top: 15px;}
 .content2 { text-align: justify; padding: 0px 75px 20px 75px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
-.content4 { text-align: justify; padding: 0px 75px 0px 75px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
+.content4 { text-align: justify; padding: 0px 75px 10px 75px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 #testimonials { display: flex; flex-direction: row; justify-content: space-evenly; flex-wrap: wrap; padding-bottom: 20px; } 
 .test { background: rgb(255,255,255); border-radius: 5px; height: auto; width: 290px; margin-top: 0; margin-bottom: 20px; padding: 20px 20px 20px 20px; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4); }
 .test-border { border: 1.5px solid rgb(72, 181, 71); border-radius: 5px; padding-top: 10px; }
