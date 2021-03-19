@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbitron&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.0/swiper-bundle.min.css" integrity="sha512-T9Nrm9JU37BvYFgjYGVYc8EGnpd3nPDz/NY19X6gsNjb0VHorik8KDBljLHvqWdqz9igNqTBvZY4oCJQer4Xtg==" crossorigin="anonymous" />
 	<script src="https://kit.fontawesome.com/df2161b1ec.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,13 +26,13 @@
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-          	<a href="about.html" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
             <a href="services.html" class="nav-link">Services</a>
           </li>
           <li class="nav-item">
           	<a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+          	<a href="about.html" class="nav-link">About</a>
           </li>
           <li class="nav-item">
             <a href="contact-us.html" class="nav-link">Contact</a>
@@ -48,27 +49,26 @@
 			<div class="bannerText">
 		  		<h1 class="display-4" id="jumboText">Welcome to BigCloudCorp</h1>
 			    <p class="lead" id="jumboText2">We're not a consultancy. We're not a blog. We're Technologists.</p>
-			    <!--<button class="helpdeskBtn1" onclick="window.location.href='contact-us.html'">Get Started</button>-->
 		  	</div>
 		  </div>
 		</div>
 		<div id="width-layer">
 			<div id="layer3">
 				<hr class="hr1">
-				<h2 class="aboutLabel1">Let's talk Cloud...</h2>
-				<img class="neuron" src="images/img9.jpeg" alt="A blue cloud matrix" />
-				<p class="content4">What is “the cloud”? A buzzword for one, and tired one at that. Simply put: the cloud is nothing more than a bunch of very
-				powerful computers chained together to create virtual environments and infinite possibilities. Think of cloud computing as IT resources like 
-				servers, storage devices, and networking hardware distributed across the internet. Highly trained architects and engineers spend countless hours 
-				creating enterprise grade IT infrastructure networks that can be used by anyone to create anything. Cloud tech diminishes the need for purchasing,
-				configuring and maintaining all the fancy IT equipment that’s needed to bring a shiny, feature-rich application or website to market. A cloud 
-				presence will make things possible that weren’t with on-premise solutions.</p>
-				<!--<img class="meeting" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="A table during a meeting with laptops and snacks">-->
-				<!--<h2 class="aboutLabel2">So...what is BigCloudCorp?</h2>-->
-				<!--<p class="content2">BigCloudCorp is just that, a corp of dedicated people helping others bring big ideas to the cloud. Our focus is set on enabling -->
-				<!--people in the age of cloud. BigCloudCorp could be thought of as a cloud technology consulting team with MSP services in the future, but for now this-->
-				<!--will only be a place to come for information. We’re excited to bring a community of intelligent developers, engineers, architects, or tinkerers -->
-				<!--together soon. Our goal is to provide information enabling rapid product deployment and scale to the market’s demand with an automated approach. </p>-->
+				<div id="flexDivAbout">
+					<div>
+						<img class="neuron" src="images/img14.jpeg" alt="A blue cloud matrix" />
+					</div>
+					<div>
+						<h2 class="aboutLabel1">Let's talk Cloud...</h2>
+						<p class="content4">What is “the cloud”? A buzzword for one, and tired one at that. Simply put: the cloud is nothing more than a bunch of very
+						powerful computers chained together to create virtual environments and infinite possibilities. Think of cloud computing as IT resources like 
+						servers, storage devices, and networking hardware distributed across the internet. Highly trained architects and engineers spend countless hours 
+						creating enterprise grade IT infrastructure networks that can be used by anyone to create anything. Cloud tech diminishes the need for purchasing,
+						configuring and maintaining all the fancy IT equipment that’s needed to bring a shiny, feature-rich application or website to market. A cloud 
+						presence will make things possible that weren’t with on-premise solutions.</p>
+					</div>
+				</div>
 				<hr class="hr1">
 			</div>
 			
@@ -81,7 +81,7 @@
 							<h5>On-Premise Migration</h5>
 							<ul>
 								<li>&bull;From Legacy Hardware to Microservices</li>
-								<li>&bull;Replace Old Archive Directories with the Latest, Coupled with SSO(single sign-on)</li>
+								<li>&bull;Replace Old Active Directories with the Latest, Coupled with SSO(single sign-on)</li>
 								<li>&bull;Step-By-Step Migration or Complete Rebuild in the Cloud</li>
 							</ul>
 						</a>
@@ -117,7 +117,7 @@
 							<ul>
 								<li>&bull;Have you tried turning it off and on again?</li>
 								<li>&bull;Try Unplugging it for 30 seconds..</li>
-								<li>&bull;Still not working? Check out our Blog BCC Field, it's a field of information we've picked up over the years</li>
+								<li>&bull;Still not working? Check out our blog BCC Field, it's a field of information we've picked up over the years</li>
 							</ul>
 						</a>
 					</div>
@@ -125,37 +125,101 @@
 			</div>
 			<hr class="hr2">
 			
-			<div class="container-fluid text-center">
-				<h2 class="text-center testLabel">The Buzz...</h2>
-				<div id="testimonials">
-					<div class="test">
-						<div class="test-border">
-							<img src="https://img.icons8.com/color/48/000000/user-female-circle--v1.png" alt="Female user icon" />
-							<h3>Poppy</h3>
-							<p class="review">"Anytime I need help with the cloud BigCloudCorp is always ready and willing to assist. I highly recommend!"</p>
+			<div class="test-section">
+				<div class="container-fluid">
+					<div class="section-title">
+						<h2 class="testLabel">The Buzz..</h2>
+						<span class="section-separator"></span>
+					</div>
+				</div>
+				<div class="testimonials-carousel-wrap">
+					<div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #FFF;"></i></div>
+					<div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #FFF;"></i></div>
+					<div class="testimonials-carousel">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="testi-item">
+										<div class="testi-avatar"><img src="https://img.icons8.com/color/48/000000/user-female-circle--v1.png" alt="Female user icon" /></div>
+										<div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+										<div class="testimonials-text">
+											<p>I cannot wait for BCC. I’ve seen the blog preview and it looks helpful! I like how I can send my friends to a site that has good general IT knowledge.</p>
+											<div class="testimonials-avatar">
+												<h3>Poppy</h3>
+											</div>
+										</div>
+										<div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="testi-item">
+										<div class="testi-avatar"><img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-3--v1.png" alt="Male user icon" /></div>
+										<div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+										<div class="testimonials-text">
+											<p>Reach out to BCC! They just get it, and they're pretty quick to respond too. Actually, I wonder if they ever sleep...</p>
+											<div class="testimonials-avatar">
+												<h3>Kurt</h3>
+											</div>
+										</div>
+										<div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="testi-item">
+										<div class="testi-avatar"><img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-6--v1.png" alt="Female User Icon" /></div>
+										<div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+										<div class="testimonials-text">
+											<p>BigCloudCorp never fails to meet all of my expectations. I come to this site looking to understand 1 thing and learn 4.</p>
+											<div class="testimonials-avatar">
+												<h3>Marilyn</h3>
+											</div>
+										</div>
+										<div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="testi-item">
+										<div class="testi-avatar"><img src="https://img.icons8.com/color/50/000000/circled-user-male-skin-type-7--v1.png" alt="Male user icon" /></div>
+										<div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+										<div class="testimonials-text">
+											<p>Now I have a website for my business at a fraction of the cost of the frag and drop site builder I was looking to use.</p>
+											<div class="testimonials-avatar">
+												<h3>Serj</h3>
+											</div>
+										</div>
+										<div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="testi-item">
+										<div class="testi-avatar"><img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-3--v1.png" alt="Male user icon" /></div>
+										<div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+										<div class="testimonials-text">
+											<p>The amount of offerings and features from AWS was overwhelming, but BCC knows the services. I absolutely trust them with my rebuild.</p>
+											<div class="testimonials-avatar">
+												<h3>Marshall</h3>
+											</div>
+										</div>
+										<div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="testi-item">
+										<div class="testi-avatar"><img src="https://img.icons8.com/color/50/000000/circled-user-male-skin-type-7--v1.png" alt="Male user icon" /></div>
+										<div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+										<div class="testimonials-text">
+											<p>BCC was a hug help! I finally understand the serverless architecture stack for our new app.</p>
+											<div class="testimonials-avatar">
+												<h3>Ludwig</h3>
+											</div>
+										</div>
+										<div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="test">
-						<div class="test-border">
-							<img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-3--v1.png" alt="Male user icon" />
-							<h3>Kurt</h3>
-							<p class="review">"All around excellent service from BigCloudCorp - we could not be happier! Give them a call today! You won't be sorry."</p>
-						</div>
-					</div>
-					<div class="test">
-						<div class="test-border">
-							<img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-6--v1.png" alt="Female User Icon" />
-							<h3>Marilyn</h3>
-							<p class="review">"BigCloudCorp never fails to meet all of my expectations. They're experts and the service is incomparable!"</p>
-						</div>
-					</div>
-					<div class="test">
-						<div class="test-border">
-							<img src="https://img.icons8.com/color/50/000000/circled-user-male-skin-type-7--v1.png" alt="Male user icon" />
-							<h3>Serj</h3>
-							<p class="review">"You will not be disappointed by BigCloudCorp. They offer a wide range of services to meet all of your tech needs!"</p>
-						</div>
-					</div>
+					<div class="tc-pagination"></div>
 				</div>
 			</div>
 		</div>
@@ -171,9 +235,10 @@
 			</div>
 		</div>
 	</footer>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.0/swiper-bundle.min.js" integrity="sha512-VfcksjYXPZW36rsAGxeRGdB0Kp/htJF9jY5nlofHtRtswIB+scY9sbCJ5FdpdqceRRkpFfHZ3a9AHuoL4zjG5Q==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
 </body>
 </html>
