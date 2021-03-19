@@ -1,3 +1,3 @@
 # bigCloudcorp
 
-I built this site for a small tech business to showcase their services and to help attract more clients. It was built with basic HTML, CSS, JS and also utilizes AWS Lambda services to submit the contact form from a static webpage.
+This site was built for a small tech company with HTML, CSS, vanilla Javascript, and FormSubmit for the dynamic contact form functionality.
