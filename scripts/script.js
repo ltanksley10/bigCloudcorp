@@ -1,3 +1,5 @@
+var rellax = new Rellax('.rellax');
+
 function initSwiperCarousel() {
     if ($(".testimonials-carousel").length > 0) {
         const swiper = new Swiper(".testimonials-carousel .swiper-container", {
