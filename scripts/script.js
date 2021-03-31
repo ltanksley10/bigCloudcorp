@@ -1,5 +1,17 @@
+// RELLAX PARALLAX EFFECT
 var rellax = new Rellax('.rellax');
 
+//SCROLLOUT PARALLAX EFFECT
+// ScrollOut({
+//     threshold: .5
+// });
+
+// FADE BANNER TEXT
+$(window).scroll(function() {
+    $('.bannerText').css('opacity', 1 - $(window).scrollTop() / 200);
+});
+
+// SWIPER.JS TESTIMONIAL CAROUSEL
 function initSwiperCarousel() {
     if ($(".testimonials-carousel").length > 0) {
         const swiper = new Swiper(".testimonials-carousel .swiper-container", {

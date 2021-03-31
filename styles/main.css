@@ -36,12 +36,15 @@ nav li:hover { transform: scale(1.1); }
 
 /* BANNER CONTENT */
 .bannerVid { position: relative; width: 100%; }
-#bvid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 1150px; }
-.bannerText { position: absolute; top: 0; left: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%; }
-#jumboText { color: white; text-shadow: 2px 2px 5px black; }
-#jumboText2 { color: white; text-shadow: 2px 2px 5px black; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; margin: 10px 20px 10px 30px;  }
+#bvid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 1050px; }
+.bannerText { opacity: 1; position: absolute; top: 0; left: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%; }
+#jumboText { color: white; text-shadow: 2px 2px 5px black; font-size: 75px; }
+#jumboText2 { color: white; text-shadow: 2px 2px 5px black; font-size: 30px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; margin: 10px 20px 10px 30px;  }
 
 /* HOMEPAGE MAIN CONTENT */
+/*[data-scroll] { transition: transform 1s; }*/
+/*[data-scroll="in"] { transform: translateY(0); }*/
+/*[data-scroll="out"] { transform: translateY(80px); }*/
 #layer3 { height: auto; width: auto; padding-bottom: 5px; padding-top: 20px; margin: 0 5px; }
 #flexDivAbout { display: flex; flex-direction: row-reverse; align-items: center; }
 .neuron { height: 350px; width: auto; margin-left: 20px; padding-right: 5px; padding-bottom: 20px; padding-top: 20px;  }
@@ -194,7 +197,7 @@ footer a:hover { text-decoration: none; color: purple; }
 	h4 { font-size: 20px!important; }
 	h5 { font-size: 18px!important; }
 	.hr1 { margin-left: 10px; margin-right: 10px; }
-	.hr2 { margin-left: 25px; margin-right: 25px; }
+	.hr2 { margin-left: 22px; margin-right: 22px; }
 	.aboutLabel1 { font-size: 20px!important; }
 	.aboutLabel2 { font-size: 20px!important; }
 	.lead { font-size: 16px!important; }
@@ -277,7 +280,7 @@ footer a:hover { text-decoration: none; color: purple; }
 	.aboutLabel1 { padding-left: 0px; font-size: 20px!important; text-align: center; }
 	.aboutLabel2 { font-size: 20px!important; }
 	.hr1 { margin-left: 20px; margin-right: 20px; }
-	.hr2 { margin-left: 35px; margin-right: 35px; }
+	.hr2 { margin-left: 32px; margin-right: 32px; }
 	#flexDivAbout { flex-direction: column!important; }
 	.neuron { height: 250px; width: auto; margin: 0 auto; padding: 20px 0px 0px 0px; }
 	.meeting { float: left; height: 250px; width: auto; padding-left: 25px; padding-right: 20px; }
@@ -308,6 +311,7 @@ footer a:hover { text-decoration: none; color: purple; }
 	h2 { font-size: 30px!important; } 
 	h4 { font-size: 25px!important; }
 	h5 { font-size: 18px!important; }
+	.hr2 { margin-left: 12px; margin-right: 12px; }
 	.aboutLabel1 { font-size: 25px!important; text-align: center; padding-top: 0px; }
 	.aboutLabel2 { font-size: 25px!important; margin-right: 45px; }
 	.content4 { padding-bottom: 5px; }
