@@ -58,7 +58,7 @@ nav li:hover { transform: scale(1.1); }
 .offer a { color: black; text-decoration: none; }
 .offer a:hover { text-decoration: none; color: black; }
 .offer:hover { transform: scale(1.1); }
-.offer ul { font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
+.offer ul { font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; font-size: 15px;}
 .offer ul li { text-align: center; margin-right: 45px; list-style:none;}
 #servicesOffered { display: grid; grid-template-columns: 28% 22% 22% 28%; grid-template-rows: 100%; padding: 20px 5px 20px 5px;}
 
@@ -97,9 +97,10 @@ nav li:hover { transform: scale(1.1); }
 
 /* SERVICES PAGE CONTENT */
 .servicesVideo { position: relative; width: 100%; }
-#svid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 1150px; }
+#svid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 600px; }
 .layer4 { background: white; height: auto; width: auto; padding-bottom: 10px;padding-top: 10px; margin: 10px 30px; display: flex; }
-#layer6 { margin-top: 0px; padding-bottom: 40px; padding-top: 20px; }
+#layer6 { margin-top: 0px; padding-bottom: 40px; padding-top: 5px; }
+#service1 { padding-top: 20px; }
 .content { text-align: justify; padding: 0px 20px 30px 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 .services { font-size: 30px!important; text-align: left; }
 .serviceIcon { display: flex; align-items: center; margin-right: 20px; }
@@ -107,7 +108,7 @@ nav li:hover { transform: scale(1.1); }
 
 /*ABOUT PAGE CONTENT */
 .aboutVideo { position: relative; width: 100%; }
-#avid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 1150px; }
+#avid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 600px; }
 .aboutLayer { padding-bottom: 70px!important; }
 .meeting { float: left; height: 250px; width: auto; padding-left: 75px; padding-right: 20px; margin-top: 20px;}
 .content2 { text-align: justify; padding: 0px 75px 20px 75px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
