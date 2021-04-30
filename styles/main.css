@@ -41,6 +41,7 @@ nav li:hover { transform: scale(1.1); }
 #jumboText { color: white; text-shadow: 2px 2px 5px black; font-size: 75px; }
 #jumboText2 { color: white; text-shadow: 2px 2px 5px black; font-size: 30px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; margin: 10px 20px 10px 30px;  }
 #jumboText3 { color: white; text-shadow: 2px 2px 5px black; font-size: 50px; }
+#jumboText4 { color: white; text-shadow: 2px 2px 5px black; font-size: 50px; }
 
 /* HOMEPAGE MAIN CONTENT */
 /*[data-scroll] { transition: transform 1s; }*/
@@ -111,8 +112,8 @@ nav li:hover { transform: scale(1.1); }
 .aboutVideo { position: relative; width: 100%; }
 #avid { object-fit: cover; background-position: center center; width: 100%; display: block; bottom: 0; left: 0; top: 0; max-height: 600px; }
 .aboutLayer { padding-bottom: 70px!important; }
-.meeting { float: left; height: 250px; width: auto; padding-left: 75px; padding-right: 20px; margin-top: 20px;}
-.content2 { text-align: justify; padding: 0px 75px 20px 75px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
+.meeting { float: left; height: 250px; width: auto; padding-left: 75px; padding-right: 20px; margin-top: 20px; padding-top: 10px; }
+.content2 { text-align: justify; padding: 20px 75px 20px 75px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; }
 
 /* CONTACT PAGE CONTENT */
 section { text-align: center; padding-top: 100px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-style: normal; } 
@@ -122,8 +123,8 @@ p { color: black; font-size: 18px; }
 #textarea { margin-top: 10px; }
 #description-input { font-family: sans-serif; font-weight: 400; font-style: normal; font-size: 82%; }
 #contactBackground { background: rgb(71, 181, 245); position: relative; height: 100vh; }
-#layer2 { background: white; width: 70%; padding-bottom: 20px; padding-top: 20px; border-radius: 10px; margin-top: 15px; margin-bottom: 55px; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4); }
-#layer5 { position: relative; margin-top: 40px; }
+#layer2 { background: white; width: 60%; padding-bottom: 20px; padding-top: 20px; border-radius: 10px; margin-top: 15px; margin-bottom: 55px; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4); }
+#layer5 { position: relative; margin-top: 80px; }
 
 /* FOOTER CONTENT */
 .footer { padding: 7px 15px; position: absolute; bottom: 0; width: 100%; color: white; background: rgba(72, 181, 71); font-size: 18px;}
@@ -192,7 +193,7 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 	#bvid { height: 400px!important; }
 	#avid { height: 350px!important; }
 	#svid { height: 350px!important; }
-	#jumboText { font-size: 20px!important; }
+	#jumboText, #jumboText3, #jumboText4 { font-size: 20px!important; }
 	#jumboText2 { font-size: 15px!important; margin: 5px 20px 10px 30px;}
 	h1 { font-size: 30px!important; } 
 	h2 { font-size: 25px!important; }
@@ -208,11 +209,12 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 	#flexDivAbout { flex-direction: column!important; }
 	.layer4 { flex-direction: column;  padding: 10px 0px!important; }
 	.layer6 { padding: 20px 0px 40px 0px!important; }
+	.footer { font-size: 16px; }
 	.contactFooter { position: relative!important; bottom: 0; font-size: 16px; flex-direction: column; align-items: center; }
 	#thankyouFooter { font-size: 16px; }
 	#footerContent { flex-direction: column; align-items: center; }
 	.content { font-size: 16px; padding: 0px 10px 30px 10px; }
-	.content2 { padding: 0px 10px 20px 10px; font-size: 16px; }
+	.content2 { padding: 20px 10px 20px 10px; font-size: 16px; }
 	.content4 {padding: 0px 10px 0px 10px; font-size: 16px; }
 	.serviceIcon { justify-content: center; margin-right: 0px; }
 	.serviceIcon img { margin-bottom: 15px; }
@@ -222,12 +224,8 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 	#testimonials { flex-wrap: wrap; padding-bottom: 30px; margin-left: 10px; margin-right: 10px; }
 	.testLabel { margin-top: 0px; padding-top: 10px; font-size: 20px!important;}
 	.test { height: auto; width: 300px!important; margin-top: 0px; margin-left: auto; margin-right: auto; margin-bottom: 30px; }
-	#servicesOffered { display: grid; grid-template-columns: 100%; grid-template-rows: 29% 21% 21% 29%; grid-row-gap: 10px; padding: 20px 5px 40px 5px; }
+	#servicesOffered { display: grid; grid-template-columns: 100%; grid-template-rows: 29% 21% 21% 29%; grid-row-gap: 10px; padding: 20px 5px 10px 5px!important; }
 	#servicesFeat { padding-left: 0px!important; padding-right: 0px!important; }
-}
-
-@media screen and (min-width: 360px) and (max-width: 374px) {
-	/*.contactFooter { position: relative!important; bottom: 0; }*/
 }
 
 @media screen and (width: 375px) {
@@ -236,7 +234,7 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 
 
 @media screen and (min-width: 376px) and (max-width: 450px) {
-	/*.contactFooter { position: fixed!important; bottom: 0; }*/
+	.contactFooter { position: relative!important; bottom: 0; }
 }
 
 @media screen and (max-width: 512px) {
@@ -251,7 +249,7 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 
 @media screen and (max-width: 625px) {
 	.neuron { display: block; margin-left: auto; margin-right: auto; padding: 20px 0px 0px 0px!important; margin-bottom: 10px;  }
-	.meeting { float: none!important; display: block; margin-left: auto; margin-right: auto; padding: 0px 0px!important; }
+	.meeting { float: none!important; display: block; margin-left: auto; margin-right: auto; padding: 20px 0px 0px 0px!important; }
 	.aboutLabel1 { text-align: center; padding-left: 0px!important; }
 	.aboutLabel2 { text-align: center; padding-left: 0px!important; }
 }
@@ -266,7 +264,7 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 	#bvid { height: 400px!important; }
 	#avid { height: 400px!important; }
 	#svid { height: 400px!important; }
-	#jumboText { font-size: 22px!important; }
+	#jumboText, #jumboText3, #jumboText4 { font-size: 22px!important; }
 	#jumboText2 { font-size: 15px!important; margin: 5px 20px 10px 30px;}
 	h1 { font-size: 30px!important; } 
 	h2 { font-size: 25px!important; } 
@@ -278,7 +276,7 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 	.hr2 { margin-left: 32px; margin-right: 32px; }
 	#flexDivAbout { flex-direction: column!important; }
 	.neuron { height: 250px; width: auto; margin: 0 auto; padding: 20px 0px 0px 0px; }
-	.meeting { float: left; height: 250px; width: auto; padding-left: 25px; padding-right: 20px; }
+	.meeting { float: left; height: 250px; width: auto; padding-top: 20px; padding-left: 25px; padding-right: 20px; }
 	.lead { font-size: 16px!important; }
 	#layer2 { width: 100%; margin-top: 5px; }
 	#layer3 { width: auto; margin-right: 12px; margin-left: 12px; margin-bottom: 0px; padding-bottom: 10px; }
@@ -286,7 +284,7 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 	/*.contactFooter { position: relative!important; bottom: 0; font-size: 16px; flex-direction: column; align-items: center; }*/
 	#footerContent { flex-direction: column; align-items: center; }
 	.content { font-size: 16px; padding: 0px 10px 30px 10px;}
-	.content2 { padding: 0px 25px 20px 25px; font-size: 16px; }
+	.content2 { padding: 20px 25px 20px 25px; font-size: 16px; }
 	.content4 {padding: 0px 25px 0px 25px; font-size: 16px; }
 	.serviceIcon { justify-content: center; margin-right: 0px;}
 	.serviceIcon img { margin-bottom: 15px; }
@@ -344,3 +342,22 @@ footer a:hover { text-decoration: none; color: rgb(0, 87, 138); }
 	#servicesOffered { display: grid; grid-template-columns: 50% 50%; grid-template-rows: 50% 50%; }
 	.offer1, .offer2 { padding-bottom: 30px; }
 } 
+
+@media (max-width: 1024px) {
+	.cloud.s1{ -moz-transform: scale(0.9, 0.9); -ms-transform: scale(0.9, 0.9); -webkit-transform: scale(0.9, 0.9); transform: scale(0.9, 0.9); -webkit-animation: moveclouds 5s linear infinite;
+	-moz-animation: moveclouds 5s linear infinite; -o-animation: moveclouds 5s linear infinite; }
+	.cloud.s2{ left: 12.5em; -moz-transform: scale(0.7, 0.7); -ms-transform: scale(0.7, 0.7); -webkit-transform: scale(0.7, 0.7); transform: scale(0.7, 0.7);
+		-webkit-animation: moveclouds 20s linear infinite; -moz-animation: moveclouds 20s linear infinite; -o-animation: moveclouds 20s linear infinite; }
+	.cloud.s3{ left: -15.625em; top: -12.5em; -moz-transform: scale(0.4, 0.4); -ms-transform: scale(0.4, 0.4); -webkit-transform: scale(0.4, 0.4); transform: scale(0.4, 0.4);
+		-webkit-animation: moveclouds 10s linear infinite; -moz-animation: moveclouds 10s linear infinite; -o-animation: moveclouds 10s linear infinite; }
+	.cloud.s4{ left: 29.375em; top: -35.65em; -moz-transform: scale(0.5, 0.5); -ms-transform: scale(0.5, 0.5); -webkit-transform: scale(0.5, 0.5); transform: scale(0.5, 0.5); 
+		-webkit-animation: moveclouds 6s linear infinite; -moz-animation: moveclouds 6s linear infinite; -o-animation: moveclouds 6s linear infinite; }
+	.cloud.s5{ left: -38em; top: -38em; -moz-transform: scale(0.3, 0.3); -ms-transform: scale(0.3, 0.3); -webkit-transform: scale(0.3, 0.3); transform: scale(0.3, 0.3);
+		-webkit-animation: moveclouds 14s linear infinite; -moz-animation: moveclouds 14s linear infinite; -o-animation: moveclouds 14s linear infinite; }
+	.cloud.s6 { left: 42.5em; top: -48em; -moz-transform: scale(0.9, 0.9); -ms-transform: scale(0.9, 0.9); -webkit-transform: scale(0.9, 0.9); transform: scale(0.9, 0.9); 
+		-webkit-animation: moveclouds 10s linear infinite; -moz-animation: moveclouds 10s linear infinite; -o-animation: moveclouds 10s linear infinite; }
+	.cloud.s7 { left: -49.375em; top: -65.65em; -moz-transform: scale(0.5, 0.5); -ms-transform: scale(0.5, 0.5); -webkit-transform: scale(0.5, 0.5); transform: scale(0.5, 0.5); 
+		-webkit-animation: moveclouds 6s linear infinite; -moz-animation: moveclouds 6s linear infinite; -o-animation: moveclouds 6s linear infinite; }
+	.cloud.s3{ left: 55.625em; top: -32.5em; -moz-transform: scale(0.4, 0.4); -ms-transform: scale(0.4, 0.4); -webkit-transform: scale(0.4, 0.4); transform: scale(0.4, 0.4);
+		-webkit-animation: moveclouds 10s linear infinite; -moz-animation: moveclouds 10s linear infinite; -o-animation: moveclouds 10s linear infinite; }
+}
