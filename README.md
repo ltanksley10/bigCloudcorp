@@ -2,7 +2,7 @@
 
 A static website built from scratch with HTML, CSS and JavaScript.
 
-## Introduction
+## Description
 
 This site was built as a concept for a small tech business and a 
 professional style project for my developer portfolio. A few skills
